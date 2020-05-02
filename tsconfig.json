@@ -1,0 +1,24 @@
+{
+  "include": [
+    "src/index.ts"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "dom",
+      "es2018",
+      "esnext"
+    ],
+    "declaration": true,
+    "outDir": "dist/angular-element-variants",
+    "downlevelIteration": true,
+    "strict": false,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_module/@types"
+    ],
+    "types": [  ],
+    "esModuleInterop": true
+  }
+}
